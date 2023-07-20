@@ -34,3 +34,4 @@ class product(models.Model):
     trending=models.BooleanField(default=False,help_text="0-default,1-trending")
     created_at=models.DateTimeField(auto_now_add=True)
     
+    
